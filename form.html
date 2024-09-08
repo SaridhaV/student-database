@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <title>Registration</title>
+        <link rel="stylesheet" href="form.css">
+    </head>
+    <body>
+        <div class="container">
+            <form action="/post" method="post">
+                <label for="name">Name :</label>
+                <input type="text" id="name" name="name">
+                <label for="app_no">Application No :</label>
+                <input type="text" id="app_no" name="app_no">
+                <label for="email">Email :</label>
+                <input type="text"  name="email">
+                <label for="department">Department :</label>
+                <select name="department" id="department" name="department">
+                    <option value="CSE">CSE</option>
+                    <option value="IT">IT</option>
+                    <option value="CST">CST</option>
+                    <option value="EEE">EEE</option>
+                    <option value="ECE">ECE</option>
+                    <option value="BME">BME</option>
+                    <option value="BT">BT</option>
+                </select>
+                <label for="year">Year :</label>
+                <select name="year" id="year" name="year">
+                    <option value="I">I</option>
+                    <option value="II">II</option>
+                    <option value="III">III</option>
+                    <option value="IV">IV</option>
+                   </select>
+                
+                <button type="submit">Register</button>
+            </form>
+        </div>
+
+    </body>
+</html>
